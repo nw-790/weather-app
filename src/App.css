@@ -1,0 +1,77 @@
+/* Global reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #bea7ee, #8C52FF);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Center container */
+.container {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Heading styles */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input and button styles */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 65%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #a47af8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #8C52FF;
+}
+
+/* Weather details */
+h2 {
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Add responsiveness */
+@media (max-width: 600px) {
+  input, button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+
+.weather-icon {
+  margin: 10px 0;
+  color: #a47af8;
+}
+
