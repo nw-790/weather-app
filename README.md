@@ -31,6 +31,10 @@ A simple React weather application that fetches real-time weather data using the
     ```bash
     npm start
 
+## Demo
+- ![App Screenshot](weatherscreenshot.png)
+
+
 ## Future Improvements
 - Add a 5-day weather forecast
 - Improve UI with animations
